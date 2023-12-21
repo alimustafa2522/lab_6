@@ -34,6 +34,7 @@ return ( 0.21 * ( *r )) + (0.72 * (* g)) + (0.07 * (*b));
   //TODO: implement
 }
 
+
 int toSepia(int *r, int *g, int *b) {
 
    *r =  (0.393 * *r) + (0.769 * *g) + (0.189 * *b);
