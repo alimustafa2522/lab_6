@@ -15,8 +15,9 @@ int toGrayScale(int *r, int *g, int *b, Mode mode) {
 
   if(mode==AVERAGE)
   {
-    
-  return (*r + *g + *b) / 3;
+    double avg = (*r + *g + * b)/3;
+  
+  return avg;
 
   }
 
